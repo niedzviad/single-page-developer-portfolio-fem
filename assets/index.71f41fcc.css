@@ -321,7 +321,7 @@ p {
 
 .hello:before {
     content: "";
-    background-image: url(assets/pattern-rings.47cfc59e.svg);
+    background-image: url(pattern-rings.47cfc59e.svg);
     position: absolute;
     width: 33.125rem;
     height: 8.0625rem;
@@ -340,7 +340,7 @@ p {
 
 .hero-picture:before {
     content: "";
-    background-image: url(assets/pattern-circle.a6fe7d83.svg);
+    background-image: url(pattern-circle.a6fe7d83.svg);
     position: absolute;
     width: 8.0625rem;
     height: 8.0625rem;
@@ -506,7 +506,7 @@ p {
 
 .skills:before {
     content: "";
-    background-image: url(assets/pattern-rings.47cfc59e.svg);
+    background-image: url(pattern-rings.47cfc59e.svg);
     position: absolute;
     width: 33.125rem;
     height: 8.0625rem;
@@ -717,7 +717,7 @@ p {
 
 .contact:before {
     content: "";
-    background-image: url(assets/pattern-rings.47cfc59e.svg);
+    background-image: url(pattern-rings.47cfc59e.svg);
     position: absolute;
     width: 33.125rem;
     height: 8.0625rem;
