@@ -1,22 +1,3 @@
-/* GENERAL STYLING */
-/* CUSTOM FONT - HUJ WIE CZY TAK TO SIE ROBI */
-@font-face {
-    font-family: 'Space Grotesk Bold';
-    font-display: swap;
-    /* or block, swap, fallback, optional */
-    src: local('Awesome Font'),
-        url('/assets/fonts/static/SpaceGrotesk-Bold.ttf');
-}
-
-/* Double font-face? */
-@font-face {
-    font-family: 'Space Grotesk Medium';
-    font-display: swap;
-    /* or block, swap, fallback, optional */
-    src: local('Awesome Font'),
-        url('/assets/fonts/static/SpaceGrotesk-Medium.ttf');
-}
-
 /* VARIABLES */
 :root {
     /* COLORS */
@@ -26,8 +7,8 @@
     --clr-fon-primary: #FFFFFF;
     --clr-font-secondary: #d9d9d9;
     /* Fonts */
-    --ff-medium: Space Grotesk Medium;
-    --ff-bold: Space Grotesk Bold;
+    --ff-medium: 'Space Grotesk', sans-serif;
+    --ff-bold: 'Space Grotesk', sans-serif;
     /* FONT-SIZE */
     --fs-body: 1.125rem;
     --fs-h-m: 1.5rem;
@@ -117,7 +98,6 @@ nav ul {
     font: var(--ff-bold);
     text-transform: uppercase;
     cursor: pointer;
-    /* TRANSITION!!! ok mordo bedzie sztywno*/
     transition: color .3s ease-in;
     display: inline-block;
    }
